@@ -42,9 +42,6 @@ export class Home extends Component {
       <div>
         <div className="container">
           <div className="row">
-            <div className="col-md-4 col-12">
-              <Competitions />
-            </div>
             <div name="teams" className="col-md-6 col-12">
               Teams
               {this.state.teams && (
@@ -93,6 +90,9 @@ export class Home extends Component {
                   ))}
                 </ul>
               )}
+            </div>
+            <div className="col-md-4 col-12 order-sm-last order-md-first">
+              <Competitions />
             </div>
           </div>
         </div>
