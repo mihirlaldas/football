@@ -1,7 +1,20 @@
 .App {
   text-align: center;
 }
+a {
+  text-decoration: none;
+}
 
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul > li {
+  list-style: none;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: aqua;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

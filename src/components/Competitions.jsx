@@ -107,6 +107,7 @@ export class Competitions extends Component {
         <div className="card-deck">
           {this.state.data.map((competiton) => (
             <CompCard
+              id={competiton.id}
               img={competiton.emblemUrl}
               title={competiton.name}
               country={competiton.area.name}
