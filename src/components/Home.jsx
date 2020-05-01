@@ -40,7 +40,7 @@ export class Home extends Component {
   render() {
     return (
       <div>
-        <div className="container">
+        <div className="container-fluid">
           <div className="row">
             <div name="teams" className="col-md-6 col-12">
               Teams
