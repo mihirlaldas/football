@@ -3,7 +3,14 @@ import Competitions from "./Competitions";
 export default function Home() {
   return (
     <div>
-      <Competitions />
+      <div className="container">
+        <div className="row">
+          <div className="col-4">
+            <Competitions />
+          </div>
+          <div className="col-6">Teams</div>
+        </div>
+      </div>
     </div>
   );
 }
